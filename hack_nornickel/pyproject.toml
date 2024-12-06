@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hack-nornickel"
+version = "0.1.0"
+description = ""
+authors = ["Vesoore <aleksandrglazkov64962@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.5.1"
+transformers = "^4.47.0"
+pdf2image = "^1.17.0"
+colpali-engine = "0.3.1"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
