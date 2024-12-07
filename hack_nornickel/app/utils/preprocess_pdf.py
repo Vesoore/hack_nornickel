@@ -10,7 +10,7 @@ def pdf_to_images(pdf_path):
 
 def preprocess_image(image):
     # Уменьшение размера изображения с помощью PIL
-    img = image.resize((224, 224))
+    img = image.resize((448, 448))
     return np.array(img)
 
 def process_pdf(pdf_path):
